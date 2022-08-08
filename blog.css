@@ -6,6 +6,8 @@ body {
     background-position: center;
     background-size: cover;
     background-attachment: fixed;
+    background-blend-mode: overlay;
+    background-color: rgba(218, 235, 234, 0.5);
 }
 
 h2 {
@@ -36,6 +38,10 @@ article {
     text-align: center;
 }
 
+h1 {
+    color: black;
+}
+
 aside {
     display: flex;
     flex-direction: column;
@@ -58,7 +64,7 @@ section {
     grid-template-columns: 75% 25%;
     grid-auto-rows: auto;
     
-    background-color: rgba(210, 238, 212, 0.5);
+ 
 }
 h3 {
     text-decoration: underline;
@@ -113,4 +119,3 @@ li {
     background-size: cover;
     background-position: center;
 }
-
