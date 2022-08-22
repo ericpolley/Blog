@@ -182,3 +182,25 @@ li {
     background-size: cover;
     background-position: center;
 }
+
+#blogImg09 {
+    width: 97%;
+    height: 400px;
+    background-image: url('images/blogImg09.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+#blogImg10 {
+    width: 97%;
+    height: 400px;
+    background-image: url('images/blogimg10.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.white {
+    color: white;
+}
